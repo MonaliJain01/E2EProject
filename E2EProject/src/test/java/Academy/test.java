@@ -9,6 +9,7 @@ public class test {
 		System.setProperty("webdriver.chrome.driver", "C://chromedriver.exe");
 		WebDriver driver= new ChromeDriver();
 		driver.get("http://qaclickacademy.com");
+		driver.getCurrentUrl();
 		
 		// TODO Auto-generated method stub
 
